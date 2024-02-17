@@ -15,9 +15,8 @@ Java logging frameworks are essential tools for developers to manage and track a
 
 ## Topics Covered
 
-1. Log4j 2: Configuration, loggers, appenders, and logging levels.
-2. SLF4J with Logback: Logger configuration, appenders, and logging patterns.
-3. Apache Commons Logging: Basic logging usage and configuration.
+1. Log Configurations
+2. Customizing Log Formats and Layouts
 
 Each section includes code samples, configuration files, and usage instructions to help you understand and integrate the respective logging framework.
 
