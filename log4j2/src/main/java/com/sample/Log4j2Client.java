@@ -8,9 +8,15 @@ public class Log4j2Client {
 	private static final Logger logger = LogManager.getLogger(Log4j2Client.class);
 
 	public static void main(String[] args) {
+		boolean isDebugEnabled = logger.isDebugEnabled();
+		
 		try {
-			logger.trace("Designates finer-grained informational events than the DEBUG.");
-			logger.debug("Designates fine-grained informational events that are most useful to debug an application.");
+
+			if (isDebugEnabled) {
+				logger.trace("Designates finer-grained informational events than the DEBUG.");
+				logger.debug(
+						"Designates fine-grained informational events that are most useful to debug an application.");
+			}
 
 			logger.info(
 					"Designates informational messages that highlight the progress of the application at coarse-grained level.");
