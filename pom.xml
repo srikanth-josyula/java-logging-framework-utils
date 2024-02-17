@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.sample</groupId>
+	<artifactId>java-logging-framework-utils</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>java-logging-framework-utils</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+	</dependencies>
+<modules>  <module>log4j2</module>
+    <module>logback</module>
+    <module>slf4j</module>
+    <module>apache-logging</module>
+  </modules>
+</project>
