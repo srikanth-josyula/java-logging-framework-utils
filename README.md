@@ -16,7 +16,8 @@ Java logging frameworks are essential tools for developers to manage and track a
 ## Topics Covered
 
 1. Log Configurations
-2. Customizing Log Formats and Layouts
+2. Log Appenders Configuration
+3. Customizing Log Formats and Layouts
 
 Each section includes code samples, configuration files, and usage instructions to help you understand and integrate the respective logging framework.
 
